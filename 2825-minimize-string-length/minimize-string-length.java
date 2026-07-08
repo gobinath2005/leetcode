@@ -1,0 +1,11 @@
+class Solution {
+    public int minimizedStringLength(String s) {
+        Set<Character>set=new TreeSet<>();
+        int count=0;
+        for(int i=0;i<s.length();i++){
+            set.add(s.charAt(i));
+        }
+    
+    return set.size();
+    }
+}
